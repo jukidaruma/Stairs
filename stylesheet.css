@@ -228,13 +228,15 @@ footer {
     }
     
     .main {
+        max-width: 100%;
+        margin: 0 auto;
         text-align: center;
         padding: 10px 20px;
         background: rgba(255,255,255,0.3);
     }
     
     .copy-container h1 {
-        font-size: 30px
+        font-size: 25px
     }
       
     .copy-container h2 {
@@ -275,6 +277,7 @@ footer {
     }
 
     .contents-info {
+        text-align: left;
         float: none;
     }
     
