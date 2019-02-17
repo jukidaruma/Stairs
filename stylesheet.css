@@ -31,6 +31,11 @@ li {
     color: white;
 }
 
+.title-area a {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     background-color: black;
     color: #fff;
