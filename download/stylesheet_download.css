@@ -188,6 +188,10 @@ footer {
         margin: 0px;
         color: white;
     }
+
+    .title-area a {
+        pointer-events: none;
+    }
     
     header {
         background-color: black;
@@ -348,5 +352,9 @@ footer {
     }
     .contents img {
         width: 80%;
+    }
+
+    footer {
+        display: none;
     }
 }
