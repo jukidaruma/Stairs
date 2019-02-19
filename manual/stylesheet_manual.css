@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-image: url(../img/background_manual.png);
+    background-image: url(../img/background_manual.jpg);
 }
 
 li {
@@ -13,7 +13,7 @@ li {
 .title-area {
     height: 180px;
     background-size: cover;
-    background-image: url(../img/background.png)
+    background-image: url(../img/background.jpg)
 }
 
 .title-area h1 {
