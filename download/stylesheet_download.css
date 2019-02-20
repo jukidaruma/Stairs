@@ -21,7 +21,11 @@ li {
     font-size: 95px;
     padding: 0px 1%;
     margin: 0px;
-    color: white;
+    color: yellow;
+    text-shadow: 2px 2px 0 #000,
+                -2px 2px 0 #000,
+                2px -2px 0 #000,
+                -2px -2px 0 #000;
 }
 
 .title-area p {
@@ -48,11 +52,9 @@ header {
 }
 
 .header-list ul {
-    height: 95%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
 }
 
 .header-list li {
@@ -60,23 +62,18 @@ header {
     float: left;
     color: #fff;
     font-size: 30px;
-    padding: 0px 20px;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-}
-
-.header-list li+ li {
-    height: 100%;
-    float: left;
-    color: #fff;
-    font-size: 30px;
-    padding: 0px 20px;
-    border-left: 0;
-    border-right: 1px solid #fff;
+    padding: 0px;
 }
 
 .header-list a {
-    color: #fff;
+    border: 1px solid white;
+    background-image: url(../img/button.jpg);
+    background-size: cover;
+    padding: 0 3px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-decoration:none;
 }
 
 .main {
@@ -130,7 +127,7 @@ header {
 footer {
     background-color: black;
     color: #fff;
-    height: 100px;
+    height: 130px;
     padding: 0px 10px;
 }
 
@@ -153,6 +150,7 @@ footer {
     color: #fff;
 }
 
+
 @media (max-width: 750px){
     body {
         font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
@@ -170,7 +168,6 @@ footer {
         height: 20vw;
         background-color: navy;
         background-size: cover;
-        background-image: url(../img/background.jpg)
     }
     
     .title-area h1 {
@@ -178,7 +175,6 @@ footer {
         font-size: 11vw;
         padding: 0px 1vw;
         margin: 0px;
-        color: white;
     }
     
     .title-area p {
@@ -205,38 +201,32 @@ footer {
     }
     
     .header-list ul {
-        height: 95%;
+        height: 100%;
         padding: 0px;
         margin: 0px;
-        border-bottom: 1px solid #fff;
-        border-top: 1px solid #fff;
     }
     
     .header-list li {
         height: 100%;
         float: left;
         color: #fff;
-        font-size: 100%;
-        padding: 0px 5px;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
-    }
-    
-    .header-list li+ li {
-        height: 100%;
-        float: left;
-        color: #fff;
-        font-size: 100%;
-        padding: 0px 5px;
-        border-left: 0;
-        border-right: 1px solid #fff;
+        font-size: 20px;
+        padding: 0px;
     }
     
     .header-list a {
-        color: #fff;
+        border: 1px solid white;
+        background-size: cover;
+        padding: 0 3px;
+        margin: 0;
+        text-align: center;
+        color: white;
+        text-decoration:none;
     }
     
     .main {
+        max-width: 100%;
+        margin: 0 auto;
         padding: 10px 20px;
         background: rgba(255,255,255,0.3);
     }
@@ -289,7 +279,7 @@ footer {
     footer {
         background-color: black;
         color: #fff;
-        height: 30vw;
+        height: 35vw;
     }
     
     .footer-logo {
@@ -311,7 +301,7 @@ footer {
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 550px){
     header {
         background-color: black;
         color: #fff;
@@ -327,8 +317,6 @@ footer {
         height: 95%;
         padding: 0px;
         margin: 0px;
-        border-right: 1px solid #fff;
-        border-left: 1px solid #fff;
     }
     
     .header-list li {
@@ -336,10 +324,7 @@ footer {
         float: none;
         color: #fff;
         font-size: 12px;
-        padding: 2vw 3vw;
-        border-left: none;
-        border-top: 1px solid #fff;
-        border-bottom: 1px solid #fff;
+        padding: 0;
     }
     
     .header-list li+ li {
@@ -347,9 +332,20 @@ footer {
         float: none;
         color: #fff;
         font-size: 12px;
-        padding: 2vw 3vw;
-        border-right: 1px solid #fff;
+        padding: 0;
     }
+
+    .header-list a {
+        display: block;
+        border: 1px solid white;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: white;
+        text-decoration:none;
+    }
+
     .contents img {
         width: 80%;
     }
