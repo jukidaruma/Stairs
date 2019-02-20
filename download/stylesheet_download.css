@@ -165,22 +165,21 @@ footer {
     }
     
     .title-area {
-        height: 20vw;
+        height: 100px;
         background-color: navy;
         background-size: cover;
     }
     
     .title-area h1 {
         height: 80%;
-        font-size: 11vw;
+        font-size: 60px;
         padding: 0px 1vw;
         margin: 0px;
     }
     
     .title-area p {
         height: 20%;
-        font-size: 2vw;
-        padding: 1vw 1vw;
+        font-size: 10px;
         margin: 0px;
         color: white;
     }
